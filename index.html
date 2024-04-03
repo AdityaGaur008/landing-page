@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="home">
+        <div id="header">
+            <div id="nav">
+                <div class="logo">
+                    <img src="assets/download.png" alt="">
+                </div>
+                <div class="menu">
+                    <a href="#">Home</a>
+                    <a href="#Services">Service</a>
+                    <a href="#About">About</a>
+                    <a href="#contact">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <div id="layout">
+            <img src="assets/bg-1.jpg" alt="">
+            <img class="img-sec" src="assets/web and app dev.png" alt="">
+            <h2>
+                <span>W</span>eb Development
+            </h2>
+            <p> Web development is the art of creating and maintaining websites, combining <br>front-end design with
+                back-end server-side processes to ensure a seamless<br> user experience. It’s a dynamic field that
+                constantly evolves with new<br> technologies and programming languages.</p>
+            <button onclick="goToContactForm()">Contact Us</button>
+        </div>
+    </section>
+    <section id="Services">
+        <h1>Services</h1>
+        <div class="service">
+
+            <div class="card">
+                <img src="assets/html.png" alt="">
+                <h2>HTML5</h2>
+                <p>We use semantic HTML5 elements to ensure the best on-page SEO practices.</p>
+
+            </div>
+            <div class="card">
+                <img src="assets/css-3.png" alt="">
+                <h2>CSS3</h2>
+                <p>Responsive layouts with CSS3 media queries to work on all devices</p>
+
+            </div>
+            <div class="card">
+                <img src="assets/java.png" alt="">
+                <h2>JAVASCRIPT</h2>
+                <p>We use reating interactive and dynamic user experiences on websites and web applications.</p>
+            </div>
+            <div class="card">
+                <img src="assets/physics.png" alt="">
+                <h2>CSS3</h2>
+                <p>We use React Native to build cross-platform apps with a single JavaScript codebase.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="About">
+        <div class="container">
+            <h1>About</h1>
+            <div class="data">
+                <img src="assets/bg- extra.png" alt="">
+                <h2>App Development</h2>
+                <p>App development is the process of creating software applications for mobile devices, offering
+                    tailored functionality and user experiences for a variety of personal and professional tasks.</p>
+            </div>
+            <div class="data">
+                <img src="assets/web logo2.png" alt="">
+                <h2>Web Development</h2>
+                <p>Web development is the technical craft of building, deploying, and maintaining websites and web
+                    applications for the internet, encompassing both front-end and back-end development to ensure
+                    functionality and user engagement.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contactus">
+
+            <form  action="submit_form.php" method="post">
+                <label for="fname">First Name:</label><br>
+                <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+
+                <label for="lname">Last Name:</label><br>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Your email.."><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" placeholder="Write something.."
+                    style="height:200px" ></textarea><br>
+
+                <button class="btn-submit">Submit Now</button>
+            </form>
+        </div>
+
+    </section>
+     
+    <footer>
+        <footer>
+            <div class="footer-container">
+              <p>Contact us at: <a href="mailto:info@example.com">info@example.com</a></p>
+              <p>Follow us on social media:</p>
+              <ul>
+                <li><a href="https://www.facebook.com">Facebook</a></li>
+                <li><a href="https://www.twitter.com">Twitter</a></li>
+                <li><a href="https://www.instagram.com">Instagram</a></li>
+              </ul>
+              <p>© 2024 WebApp Development Company</p>
+            </div>
+          </footer>
+          
+    </footer>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>

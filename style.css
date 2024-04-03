@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 204px;
+    width: 100%;
+}
+
+.menu a {
+    color: black;
+    padding: 0 4px;
+    margin: 23px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.menu a:hover {
+    font-size: 18px;
+    color: rgb(199, 32, 32);
+
+}
+
+#layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#layout img {
+    height: 39rem;
+    align-items: center;
+    padding: 12px;
+    gap: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: none;
+
+
+}
+
+#layout h2 {
+    position: absolute;
+    right: 62rem;
+    top: 13rem;
+    color: white;
+    font-size: 33px;
+}
+
+.img-sec {
+    width: 37rem;
+    object-fit: contain;
+    height: 100%;
+
+}
+
+#layout span {
+    color: brown;
+    font-size: 35px;
+}
+
+#layout p {
+
+    position: absolute;
+    right: 52rem;
+    top: 17rem;
+    color: white;
+    font-size: 12px;
+    color: dimgrey;
+}
+
+#layout p a {
+    color: rgb(43, 136, 108);
+}
+
+#layout button {
+    position: absolute;
+    right: 73rem;
+    top: 34rem;
+    padding: 14px 32px;
+    color: white;
+    background-color: #d13e2e;
+    border-radius: 40px;
+    border: 0;
+    cursor: pointer;
+}
+
+.service{
+    padding: 42px 204px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+     
+}
+.card{
+     
+    width: 30%;
+    padding: 10px 15px;
+    margin: 12px;
+    gap: 10px;
+    z-index: 4px;
+    opacity: 23px;
+}
+.card p{
+    font-size: 14px;
+    color: grey;
+}
+.card > h2{
+     
+    width: 50%;
+    padding: 10px 25px;
+}
+.service img{
+    height: 85px; 
+}
+#Services h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 33px;
+    padding-top: 60px;
+    color: #d13e2e;
+}
+ .data{
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    padding-top: 10px;
+    margin: 10px;
+ }
+ .data h2{
+    padding: 10px;
+    font-size: 20px;
+ }
+ .container{
+    padding: 27px 121px;
+ }
+.container img{
+    height: 30rem;
+    object-fit: contain;
+}
+.container h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: purple;
+}
+.data p{
+    padding-right: 100px;
+    padding-left: 14px;
+    width: 53%;
+    color: #5c5858;
+    font: 14px;
+}
+
+/* Contact form */
+
+#contact h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: rgb(88, 83, 225);
+    padding-bottom: 25px;
+    padding-right: 63px;
+
+}
+.contactus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+label{
+    color: #020202;
+    font-size: 21px;
+    padding: 7px 32px;
+
+}
+input{
+    padding: 16px;
+    border: none;
+    border-radius: 20px;
+    margin: 5px 20px;
+    width: 20rem;
+    background-color: #cfcbcb;
+     
+}
+textarea{
+    border: none;
+    width: 255px;
+    padding: 10px 21px;
+    margin: 29px 23px;
+    border-radius: 20px;
+    width: 20rem;
+    background-color: #cfcbcb;
+}
+.contactus .btn-submit{
+    border: none;
+    border-radius: 37px;
+    padding: 20px;
+    background-color: rgb(94, 94, 94);
+    color: white;
+    margin-left: 73px;
+}
+footer{
+    height: 70px;
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.footer-container{
+    background-color: #000000;
+    color: white;
+}
+.footer-container p{
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    text-align: start;
+    
+}
+.footer-container ul{
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+     
+    text-align: start;
+    gap: 12px;
+    list-style: none;
+    
+    
+}
+.footer-container p{
+    padding-top: 10px;
+
+}
